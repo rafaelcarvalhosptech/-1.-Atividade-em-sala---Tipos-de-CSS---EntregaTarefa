@@ -1,0 +1,38 @@
+.pai {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    background-color: antiquewhite;
+    border: solid 2px #212427;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.filho {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+.cor1 {
+    background-color: #ED145B;
+    order: 0;
+    align-self: flex-start;
+}
+
+.cor3 {
+    background-color: #EFB661;
+    order: 1;
+    align-self: center;
+}
+
+.cor2 {
+    background-color: #63B1BC;
+    order: 2;
+    align-self: flex-end;
+}
